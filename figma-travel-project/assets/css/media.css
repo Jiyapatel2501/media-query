@@ -1,0 +1,299 @@
+@media(min-width:1400.99px){
+    .container{
+        max-width: 1320px;
+    }
+    .col-xxl-1{width:8.33%;}
+    .col-xxl-2{width:16.67%;}
+    .col-xxl-3{width:25%;}
+    .col-xxl-4{width:33.33%;}
+    .col-xxl-5{width:41.67%;}
+    .col-xxl-6{width:50%;}
+    .col-xxl-7{width:58.33%;}
+    .col-xxl-8{width:66.67;}
+    .col-xxl-9{width:75%;}
+    .col-xxl-10{width:83.33%;}
+    .col-xxl-11{width:91.67%;}
+    .col-xxl-12{width:100%;}
+    .d-xxl-none{display: none;}
+
+}
+
+@media(max-width:1399.99px){
+    .container{
+        max-width: 1140px;
+
+    }
+    .col-xl-1{width:8.33%;}
+    .col-xl-2{width:16.67%;}
+    .col-xl-3{width:25%;}
+    .col-xl-4{width:33.33%;}
+    .col-xl-5{width:41.67%;}
+    .col-xl-6{width:50%;}
+    .col-xl-7{width:58.33%;}
+    .col-xl-8{width:66.67;}
+    .col-xl-9{width:75%;}
+    .col-xl-10{width:83.33%;}
+    .col-xl-11{width:91.67%;}
+    .col-xl-12{width:100%;}
+    .d-xl-none{display: none;}
+    .justify-xl-center{
+        justify-content: center;
+    }
+    .align-xl-center{
+        text-align: center;
+    }
+    /*hero-section*/
+    .hero-xl-content h1{
+        font-size: 52px;
+    }
+    .hero-xl-card,.choose-trip-xl-card{
+        padding: 5px 0;
+    }
+    .content-xl p{
+        font-size: 15px;
+    }
+    /*planning section*/
+    .trip-bg-xl img{
+        width: 60%;
+    }
+    .trip-content-xl p:first-child{
+        font-size: 20px;
+    } 
+    .trip-content-xl h2{
+        font-size: 29px;
+    }
+    /*adventure section*/
+    .adven-desc-xl{
+        padding: 0 6px;
+    }
+}
+
+@media(max-width:1199.99px){
+    .container{
+        max-width: 960px;
+    }
+    .col-l-1{width:8.33%;}
+    .col-l-2{width:16.67%;}
+    .col-l-3{width:25%;}
+    .col-l-4{width:33.33%;}
+    .col-l-5{width:41.67%;}
+    .col-l-6{width:50%;}
+    .col-l-7{width:58.33%;}
+    .col-l-8{width:66.67;}
+    .col-l-9{width:75%;}
+    .col-l-10{width:83.33%;}
+    .col-l-11{width:91.67%;}
+    .col-l-12{width:100%;}
+    .d-l-none{
+        display: none;
+    }
+    /*hero-section*/
+    .hero-l-content h1{
+        font-size: 43px;
+    }
+    .content-l p{
+        font-size: 14px;
+    }
+    .hero-l-btn{
+        padding: 5px 25px;
+    }
+    /*planning section*/
+    .trip-content-l h2{
+        font-size:24px ;
+    }
+    .trip-content-l button{
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+    .city-tour-l,.e-bike-l,.skyscraper-l{
+        padding: 14px 0;
+    }
+    .city-tour-l p, .e-bike-l p, .skyscraper-l p {
+        font-size: 17px;
+    }
+    .detail-btn-l button{
+        padding:7px 20px ;
+        font-size: 14px;
+    }
+    .start-price-l h3{
+        font-size: 19px;
+    }
+    .start-price-l p s{
+        font-size: 13px;
+    }
+    /**/
+
+}
+
+@media(max-width:991.99px){
+    .container{
+        max-width: 720px;
+    }
+    .col-m-1{width:8.33%;}
+    .col-m-2{width:16.67%;}
+    .col-m-3{width:25%;}
+    .col-m-4{width:33.33%;}
+    .col-m-5{width:41.67%;}
+    .col-m-6{width:50%;}
+    .col-m-7{width:58.33%;}
+    .col-m-8{width:66.67;}
+    .col-m-9{width:75%;}
+    .col-m-10{width:83.33%;}
+    .col-m-11{width:91.67%;}
+    .col-m-12{width:100%;}
+    .d-m-none{
+        display: none;
+    }
+    .d-m-inline{
+        display: inline;
+    }
+    /*hero-section*/
+    .hero-m-content{
+        margin-left: 12%;
+    }
+    .hero-m-content p{
+        font-size: 13px;
+    }
+    .hero-m-content h1{
+        font-size: 52px;
+    }
+    .content-m p{
+        font-size: 14px;
+    }
+    /*planning section*/
+    .trip-content-m p:first-child{
+        font-size:17px ;
+    }
+    .trip-content-m h2{
+        font-size:18px;
+    }
+    .trip-content-m p{
+        font-size: 10px;
+    }
+    .trip-content-m button{
+        font-size: 14px;
+    }
+    .city-tour-m p, .e-bike-m p, .skyscraper-m p {
+        font-size: 15px;
+    }
+    .place-3-m{
+        margin-top: 50px;
+    }
+    /*choose-trip-section*/
+    .choose-trip-content-m h2 {
+        font-size: 26px;
+    }
+    .choose-trip-content-m p {
+        font-size: 13px;
+    }
+
+    /*adventure section*/
+    .adven-card-m{
+        aspect-ratio: 17/23;
+    }
+
+    /*service section*/
+    .service-img-m{
+        margin: 15% 0 5% 0;
+    }
+    .service-content-m{
+        margin: 0;
+    }
+
+}
+
+@media(max-width:767.99px){
+    .container{
+        max-width: 540px;
+    }
+    .col-s-1{width:8.33%;}
+    .col-s-2{width:16.67%;}
+    .col-s-3{width:25%;}
+    .col-s-4{width:33.33%;}
+    .col-s-5{width:41.67%;}
+    .col-s-6{width:50%;}
+    .col-s-7{width:58.33%;}
+    .col-s-8{width:66.67;}
+    .col-s-9{width:75%;}
+    .col-s-10{width:83.33%;}
+    .col-s-11{width:91.67%;}
+    .col-s-12{width:100%;}
+    .d-s-block{
+        display: block;
+    }
+    .d-s-none{
+        display: none;
+    }
+    .d-s-inline{
+        display: inline;
+    }
+    .justify-s-between{
+        justify-content: space-between;
+    }
+    /*header*/
+    .more{
+        font-size: 23px;
+    }
+    /*hero-section*/
+    .hero-s-content h1{
+        font-size: 45px;
+    }
+    .hero-s-content p{
+        font-size: 14px;
+    }
+    .skyscraper-s{
+        margin-top: 35px;
+    }
+    .place-2-s{
+        margin: 50px 0 0 0;
+    }
+    /*choose-trip-section*/
+    .choose-trip-content-s p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:575.99px){
+    .container{
+        max-width: 100%;
+    }
+    .col-xs-1{width:8.33%;}
+    .col-xs-2{width:16.67%;}
+    .col-xs-3{width:25%;}
+    .col-xs-4{width:33.33%;}
+    .col-xs-5{width:41.67%;}
+    .col-xs-6{width:50%;}
+    .col-xs-7{width:58.33%;}
+    .col-xs-8{width:66.67;}
+    .col-xs-9{width:75%;}
+    .col-xs-10{width:83.33%;}
+    .col-xs-11{width:91.67%;}
+    .col-xs-12{width:100%;}
+    .p-x-xs-10{
+        padding: 25px 10px;
+    }
+    .flex-xs{
+        display: flex;
+    }
+    .justify-xs-center{
+        justify-content: center;
+    }
+    .text-xs-center{
+        text-align: center;
+    }
+    /*hero-section*/
+    .hero-xs-content p{
+        font-size: 18px;
+    }
+    .hero-xs-content h1{
+        font-size: 48px;
+    }
+    /*planning section*/
+    .trip-planning-xs{
+        display: flex;
+        justify-content: center;
+    }
+    .trip-content-xs h2{
+        font-size: 22px;
+    }
+}
