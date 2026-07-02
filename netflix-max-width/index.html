@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlix</title>
+    <!-- remix-icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- max-media-query link -->
+     <link rel="stylesheet" href="./assets/css/max-media-query.css">
+</head>
+
+<body>
+    <header class="position-r">
+        <div class="container">
+            <nav class="menu-bar menu-ber-xs">
+                <ul class="flex justify-between align-center">
+                    <li class="logo col-m-7 col-s-7">                     
+                        <img src="./assets/images/netflix.png" alt="netflix-logo" class="col-s-2">
+                    </li>
+                    <li class="flex gap-2 gap-1-s">
+                        <button class="btn-1 flex gap-1 btn-1-s">
+                            <span><i class="ri-translate-2"></i></span>
+                            <span class="d-none-xs">English</span>
+                            <span><i class="ri-arrow-drop-down-fill down-arrow"></i></span>
+                        </button>
+                        <button class="btn-2 btn-2-s">
+                            Sign in
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container flex  justify-center">
+            <div class="col-6 col-m-10 col-s-10 col-xs-10">
+                <div class="hero-content hero-content-l hero-content-m hero-content-s">
+                    <h1>Unlimited movies, shows, and more</h1>
+                    <p>Starts at ₹149. Cancel at any time.</p>
+                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                </div>
+                <div class="input flex justify-center gap-1">
+                    <div>
+                        <input type="email" placeholder="Email Adderss" class="email email-l email-s email-xs">
+                    </div>
+                    <div>
+                        <button class="started-btn started-btn-l started-btn-xs">Get Started <span><i
+                                    class="ri-arrow-right-wide-line"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="curve">
+            <div class="curve-sec curve-sec-l"></div>
+        </section>
+        <section class="movie-sec movie-sec-xs">
+            <div class="container">
+                <div class="trending-movie">
+                    <div>
+                        <h3 class="main-title main-title-s main-title-xs">Trending Movies</h3>
+                    </div>
+                    <div class="movie-box flex gap-3 justify-center col-m-12 gap-2  movie-box-m movie-box-s movie-box-xs">
+                        <div class="card-1 col-2 position-rel col-l-2">
+                            <img src="./assets/images/dhurandhar.webp" alt="dhurandhar" class="movie-1 movie-1-l movie-1-m">
+                            <span class="trend-number-1 trend-number-1-l trend-number-1-s">1</span>
+                        </div>
+                        <div class="card-2 col-2 position-rel">
+                            <img src="./assets/images/kapil-show.webp" alt="kapil-show" class="movie-1 movie-1-l movie-1-m">
+                            <span class="trend-number-2 trend-number-2-l trend-number-2-s">2</span>
+                        </div>
+                        <div class="card-3 col-2 position-rel">
+                            <img src="./assets/images/taskaree.webp" alt="taskaree" class="movie-1 movie-1-l movie-1-m">
+                            <span class="trend-number-3 trend-number-3-l trend-number-3-s">3</span>
+                        </div>
+                        <div class="card-4 col-2 position-rel d-none-xs">
+                            <img src="./assets/images/tere-ishq-me.webp" alt="tere-ishq-me" class="movie-1 movie-1-l movie-1-m">
+                            <span class="trend-number-4 trend-number-4-l trend-number-4-s">4</span>
+                        </div>
+                        <div class="card-5 col-2 position-rel d-m-none">
+                            <img src="./assets/images/the-mentalist.webp" alt="the-mentalist" class="movie-1 movie-1-l">
+                            <span class="trend-number-5 trend-number-5-l">5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="reason-to-join reason-to-join-xs">
+                    <div>
+                        <h3 class="main-title">More Reasons to Join</h3>
+                    </div>
+                    <div class="flex gap-2 space-evenly gap-10-m">
+                        <div class="prons-for-join position-rel prons-for-join-xl prons-for-join-l prons-for-join-m col-s-12 col-xs-11">
+                            <div class="padding-5-xl">
+                                <h3 class="main-title">Enjoy on your TV</h3>
+                                <p class="desc">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players
+                                    and more.</p>
+                                <span class="card-icon"><i class="ri-computer-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="prons-for-join position-rel prons-for-join-xl prons-for-join-l prons-for-join-m col-s-12 col-xs-11">
+                            <div class="padding-5-xl">
+                                <h3 class="main-title">Download your shows to watch offline</h3>
+                                <p class="desc">Save your favourites easily and always have something to watch.</p>
+                                <span class="card-icon"><i class="ri-arrow-down-circle-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="prons-for-join position-rel prons-for-join-xl prons-for-join-l prons-for-join-m col-s-12 col-xs-11">
+                            <div class="padding-5-xl">
+                                <h3 class="main-title">Watch everywhere</h3>
+                                <p class="desc">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                                </p>
+                                <span class="card-icon"><i class="ri-search-eye-line"></i></span>
+                            </div>
+                        </div>
+                        <div class="prons-for-join position-rel prons-for-join-xl prons-for-join-l prons-for-join-m col-s-12 col-xs-11">
+                            <div class="padding-5-xl">
+                                <h3 class="main-title">Create profiles for kids</h3>
+                                <p class="desc">Send kids on adventures with their favourite characters in a space made just
+                                    for them — free with your membership.</p>
+                                <span class="card-icon"><i class="ri-send-backward"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="question-sec question-sec-m question-sec-xs">
+                    <h3 class="main-title">Frequently Asked Questions</h3>
+                </div>
+                <div>
+                    <div class="question position-rel question-m question-s question-xs">
+                        <h4 class="main-title">What is Netflix?</h4>
+                        <span><i class="ri-add-large-line"></i></span>
+                    </div>
+                    <div class="question position-rel question-m question-s question-xs">
+                        <h4 class="main-title">How much does Netflix cost?</h4>
+                        <span><i class="ri-add-large-line"></i></span>
+                    </div>
+                    <div class="question position-rel question-m question-s question-xs">
+                        <h4 class="main-title">where can I watch?</h4>
+                        <span><i class="ri-add-large-line"></i></span>
+                    </div>
+                    <div class="question position-rel question-m question-s question-xs">
+                        <h4 class="main-title">How do I cancel?</h4>
+                        <span><i class="ri-add-large-line"></i></span>
+                    </div>
+                    <div class="question position-rel question-m question-s question-xs">
+                        <h4 class="main-title">What can I watch on Netflix?</h4>
+                        <span><i class="ri-add-large-line"></i></span>
+                    </div>
+                    <div class="question position-rel question-m question-s question-xs">
+                        <h4 class="main-title">Is Netflix good for kids?</h4>
+                        <span><i class="ri-add-large-line"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container flex justify-center">
+                <div class="membership-input col-8 col-l-8">
+                    <div class="mambership mambership-xs">
+                        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                    </div>
+                    <div  class="input flex gap-1 email-2 justify-center email-2-l email-2-m email-2-s email-2-xs">
+                        <div>
+                            <input type="email" placeholder="Email Adderss" class="email">
+                        </div>
+                        <div>
+                            <button class="started-btn started-btn-l">Get Started <span><i
+                                        class="ri-arrow-right-wide-line"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer footer-xs">
+                <div>
+                    <p>Questions? Call 1-877-780-9579</p>
+                </div>
+                <div class="flex space-evenly space-between-l">
+                    <div class="col-3">
+                        <ul class="footer-menu">
+                            <li>FAQ</li>
+                            <li class="d-none-xxl d-none-xl d-block-l">Media Center</li>
+                            <li>Investor Relations</li>
+                            <li>Privacy</li>
+                            <li>Speed Test</li>
+                            <li class="d-none-xxl d-none-xl d-block-s">Account</li>
+                            <li class="d-none-xxl d-none-xl d-block-s">Ways to Watch</li>
+                            <li class="d-none-xxl d-none-xl d-block-s">Corporate Information</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="footer-menu">
+                            <li>Help Center</li>
+                            <li>Jobs</li>
+                            <li class="d-none-xxl d-none-xl d-block-l">Terms of Use</li>
+                            <li>Cookie Preferences </li>
+                            <li>Legal Notice </li>
+                            <li class="d-none-xxl d-none-xl d-block-s">Contact Us</li>
+                            <li class="d-none-xxl d-none-xl d-block-s">Only on Netflix</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 d-none-s">
+                        <ul class="footer-menu">
+                            <li>Account</li>
+                            <li>Ways to Watch</li>
+                            <li>Corporate Information</li>
+                            <li class="d-none-xxl d-none-xl d-block-l">Contact Us</li>
+                            <li>Only on Netflix</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 d-none-l">
+                        <ul class="footer-menu">
+                            <li>Media Center</li>
+                            <li>Terms of Use</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-end">
+                    <button class="btn-1 flex gap-1">
+                            <span><i class="ri-translate-2"></i></span>
+                            <span>English</span>
+                            <span><i class="ri-arrow-drop-down-fill down-arrow"></i></span>
+                    </button>
+                </div>
+                <div class="protected protected-s protected-xs">
+                    <p>Netflix India</p>
+                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <span>Learn more.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

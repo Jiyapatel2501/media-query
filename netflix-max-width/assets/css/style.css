@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{background-color: var(--color-black);}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:root {
+    --color-black: #000000;
+    --color-white: #fff;
+    --transition-1: all 0.1s linear;
+    --transition-2: all 0.2s linear;
+    --transition-3: all 0.3s linear;
+    --prime-color: #e50914;
+}
+
+.gap-1 {
+    gap: 10px;
+}
+
+.gap-2 {
+    gap: 20px;
+}
+
+.gap-3 {
+    gap: 30px;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.67%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.67%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 { width: 66.67;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.67;}
+.col-12 { width: 100%;}
+img {width: 100%;}
+header {
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00% 97%), url("../images/hero-img.jpg");
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.menu-bar {
+    position: relative;
+    z-index: 3;
+    padding: 25px 0;
+}
+
+.logo img {
+    width: 25%;
+    position: relative;
+    z-index: 2;
+}
+.btn-1 {
+    padding: 5px 9px;
+    color: var(--color-white);
+    background-color: rgb(0 0 0 / 62%);
+    border: 2px solid #3f3f3f;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.down-arrow{font-size: 20px;}
+.btn-2 {
+    padding: 5px 18px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: var(--color-white);
+    background-color: var(--prime-color);
+    border: none;
+    font-size: 16px;
+}
+.hero-content{
+    color: var(--color-white);
+    text-align: center;
+    padding-top: 150px;
+}
+.hero-content h1{
+    font-size: 52px;
+    font-weight: 900;
+}
+.hero-content :nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0 30px 0;
+}
+.input{
+    margin-top: 20px;
+}
+.email{
+    padding: 17px 135px 17px 10px;
+    border-radius: 5px;
+    background-color: #0000009e;
+    border: 1.5px solid #555453;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.started-btn{
+    padding: 11px 24px;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: var(--prime-color);
+    color: var(--color-white);
+    font-weight: 700;
+    border: 1px solid #e50914;
+}
+.started-btn span{
+    font-size: 25px;
+    font-weight: 100;
+}
+/* .curve{background-color: var(--color-black);} */
+.curve-sec{
+     height: 100px;
+    border: 0px solid transparent;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    position: relative;
+    z-index: -1;
+    margin-top: -50px;
+    width: 100%;
+}
+.curve-sec::before{
+    content: '';
+    position: absolute;
+    border-top: 4px solid transparent;
+    height: 100px;
+    width:100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    bottom: -8px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+.movie-sec{background-color: var(--color-black);}
+.main-title{
+    color: var(--color-white);
+    font-size: 25px;
+}
+.movie-box{
+    margin-top: 70px;
+}
+.trend-number-1,.trend-number-2,.trend-number-3,.trend-number-4,.trend-number-5{
+    position: absolute;
+    font-size: 100px;
+    font-weight: 900;
+    color: var(--color-black);
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color:#bdbcbc;
+    left: -25px;
+    bottom: 3px;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+.movie-1:hover{
+    transform: scale(1.04);
+}
+.movie-1{
+    max-width: 100%;
+    border-radius: 8px;
+    transition:var(--transition-1);
+}
+.reason-to-join{margin: 50px 0;}
+.prons-for-join{
+    width: 23%;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    margin-top: 20px;
+    padding: 40px 5px 120px 15px;
+    border-radius: 15px;
+}
+.prons-for-join h3{
+    font-size: 24px;
+    color: var(--color-white);
+}
+.desc{
+    color: #b5b5bf;
+    font-weight: 600;
+    margin-top: 13px;
+}
+.card-icon{
+    position: absolute;
+    font-size: 58px;
+    color: #f57dc3;
+    mix-blend-mode: difference;
+    right: 12px;
+    bottom: 0px;
+}
+.question-sec h3{margin-bottom: 30px;}
+.question{
+    background-color:#2d2d2d;
+    padding: 25px 0 25px 20px;
+    margin-top: 10px;
+    transition: var(--transition-1);
+    cursor: pointer;
+}
+.question:hover{
+    background-color: #525151;
+}
+.question h4{
+    font-size: 23px;
+    font-weight: 400;
+}
+.question span{
+    position: absolute;
+    right: 17px;
+    bottom: 20px;
+    color: var(--color-white);
+    font-size: 30px;
+}
+.mambership{
+    color: var(--color-white);
+    text-align: center;
+}
+.membership-input{
+    margin: 80px 0;
+}
+.email-2{
+    text-align: center;
+}
+.email-2 input{padding: 17px 425px 17px 10px;}
+.footer{
+    color:#b3b3b3;
+    line-height: 50px;
+}
+.footer-menu{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 35px;
+    text-decoration: underline;
+}
+.btn-end{
+    margin: 50px 0 25px 0;
+}
+.protected span{
+    color: #3f78e0;
+}
+.protected :last-child{
+    font-size: 14px;
+    font-weight: 400;
+}
