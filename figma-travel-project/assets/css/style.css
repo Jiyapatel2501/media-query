@@ -384,4 +384,16 @@ nav ul li:hover{
 	margin: 20px 0;
 	font-size: 15px;
 }
+/*end of service section*/
+/*Travel Itineraries section*/
+
+.Itineraries-title h2{
+	font-size: 65px;
+    font-weight: 700;
+    margin: 10% 0 2% 0;
+}
+.Itineraries-video iframe{
+	width: 100%;
+	aspect-ratio: 6/3;
+}
 
