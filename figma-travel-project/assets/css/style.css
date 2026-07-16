@@ -173,11 +173,11 @@ nav ul li:hover{
 	color: var(--primary-color);
 	font-size: 25px;
 }
-.trip-content h2,.choose-trip-content h2,.adven-content h2,.service-content h2{
+.trip-content h2,.choose-trip-content h2,.adven-content h2,.service-content h2,.exp-content h2{
 	font-size: 34px;
 	margin: 10px 0;
 }
-.trip-content p,.choose-trip-content p,.adven-content p,.service-content p{
+.trip-content p,.choose-trip-content p,.adven-content p,.service-content p,.exp-content p{
 	font-size: 11px;
 	line-height: 1.8;
 	margin-bottom: 10px;
@@ -396,4 +396,55 @@ nav ul li:hover{
 	width: 100%;
 	aspect-ratio: 6/3;
 }
+.Itineraries-logo{
+	margin-bottom: 5%;
+}
+
+.exp-section{
+	background: linear-gradient(to right,#0000009e, rgba(67, 74, 84, 0));
+}
+.exp-content{
+	padding: 10% 0 5% 0;
+}
+.exp-content h2{
+	color: var(--white);
+}
+.exp-content p{
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 300;
+}
+.exp-card{
+	padding: 0 3% 0 0;
+}
+
+.card-content{
+	padding: 25px;
+	background-color: var(--primary-color);
+	border-radius: 10px;
+}
+.card-content p{
+	color: var(--white);
+	font-size: 17px;
+	font-weight: 200;
+}
+.profile{
+	margin: 20px 0 10px 0;
+}
+.exp-profile{
+	padding: 8px 8px 8px 0;
+}
+.exp-profile img{
+	border-radius: 100%;
+}
+.profile-content p:first-child{
+	font-size: 14px;
+	font-weight: 500;
+}
+.profile-content p:last-child{
+	font-size: 12px;
+	font-weight: 300;
+}
+
+
 

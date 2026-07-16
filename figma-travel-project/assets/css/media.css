@@ -200,6 +200,12 @@
         margin: 0;
     }
 
+    /*Travel Itineraries*/
+
+    .Itineraries-title-m h2{
+        font-size: 50px;
+    }
+
 }
 
 @media(max-width:767.99px){
@@ -250,6 +256,12 @@
     /*choose-trip-section*/
     .choose-trip-content-s p {
         font-size: 12px;
+    }
+
+    /*Travel Itineraries*/
+
+    .Itineraries-title-s h2 {
+        font-size: 45px;
     }
 }
 
