@@ -79,7 +79,7 @@ nav ul li:hover{
 .srch-btn{
 	padding-left:10%;
 }
-.srch-btn button,.hero-btn,.trip-content button,.detail-btn button,.service-btn button{
+.srch-btn button,.hero-btn,.trip-content button,.detail-btn button,.service-btn button,.package-btn button{
 	padding: 5px 30px;
     font-size: 18px;
     margin-left: 15px;
@@ -168,16 +168,16 @@ nav ul li:hover{
 	margin: 10% 0 5% 0;
 }
 
-.trip-content p:first-child,.choose-trip-content p:first-child,.adven-content p:first-child,.service-content p:first-child{
+.trip-content p:first-child,.choose-trip-content p:first-child,.adven-content p:first-child,.service-content p:first-child,.travel-content p:first-child{
 	font-family: "Reenie Beanie", cursive;
 	color: var(--primary-color);
 	font-size: 25px;
 }
-.trip-content h2,.choose-trip-content h2,.adven-content h2,.service-content h2,.exp-content h2{
+.trip-content h2,.choose-trip-content h2,.adven-content h2,.service-content h2,.exp-content h2,.travel-content h2{
 	font-size: 34px;
 	margin: 10px 0;
 }
-.trip-content p,.choose-trip-content p,.adven-content p,.service-content p,.exp-content p{
+.trip-content p,.choose-trip-content p,.adven-content p,.service-content p,.exp-content p,.travel-content p{
 	font-size: 11px;
 	line-height: 1.8;
 	margin-bottom: 10px;
@@ -399,12 +399,16 @@ nav ul li:hover{
 .Itineraries-logo{
 	margin-bottom: 5%;
 }
-
+/*end Travel Itineraries section*/
+/*experience section*/
+.experience{
+	padding-bottom: 7%;
+}
 .exp-section{
 	background: linear-gradient(to right,#0000009e, rgba(67, 74, 84, 0));
 }
 .exp-content{
-	padding: 10% 0 5% 0;
+	padding: 15% 0 5% 0;
 }
 .exp-content h2{
 	color: var(--white);
@@ -419,7 +423,7 @@ nav ul li:hover{
 }
 
 .card-content{
-	padding: 25px;
+	padding: 35px 25px 35px 25px;
 	background-color: var(--primary-color);
 	border-radius: 10px;
 }
@@ -429,11 +433,9 @@ nav ul li:hover{
 	font-weight: 200;
 }
 .profile{
-	margin: 20px 0 10px 0;
+	margin: 20px 0 0 0;
 }
-.exp-profile{
-	padding: 8px 8px 8px 0;
-}
+
 .exp-profile img{
 	border-radius: 100%;
 }
@@ -445,6 +447,57 @@ nav ul li:hover{
 	font-size: 12px;
 	font-weight: 300;
 }
+/*end of experience section*/
+/*travel packages section*/
 
-
+.travel-packages{
+	margin: 7% 0;
+}
+.packages{
+	margin-top: 3% ;
+}
+.package-1,.package-2,.package-3{
+	background-color: #F2F2F2;
+	padding: 20% 0;
+	border-radius: 10px;
+}
+.package-title h2{
+	font-size: 50px;
+}
+.package-title span{
+	font-size: 14px;
+}
+.package-content{
+	margin: 10px 0;
+	color: var(--desc-color);
+	font-size: 14px;
+	line-height: 2;
+	word-spacing: 2px;
+}
+.package-btn button{
+	padding: 5px 15px;
+	margin-left: 0;
+	font-size: 14px;
+}
+.package-2{
+	background-color: var(--primary-color);
+	padding: 30% 0;
+}
+.package-2 .package-title,.package-3 .package-title{
+	color: var(--white);
+}
+.package-2 .package-content,.package-3 .package-content{
+	color: var(--white);
+}
+.package-2 .package-btn button{
+	background-color: #434A54;
+}
+.package-3{
+	background-color: #434A54;
+}
+.note{
+	color: var(--desc-color);
+	font-size: 14px;
+	margin-top: 10px;
+}
 
