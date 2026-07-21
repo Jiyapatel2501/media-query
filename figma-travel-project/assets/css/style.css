@@ -79,7 +79,11 @@ nav ul li:hover{
 .srch-btn{
 	padding-left:10%;
 }
+<<<<<<< HEAD
 .srch-btn button,.hero-btn,.trip-content button,.detail-btn button,.service-btn button,.package-btn button,.popular-btn button,.discover-btn button,.vacation-btn button{
+=======
+.srch-btn button,.hero-btn,.trip-content button,.detail-btn button,.service-btn button,.package-btn button,.popular-btn button,.discover-btn button{
+>>>>>>> aa99ecb6588b2319e6b1d3f8f8d8e8a13d621b76
 	padding: 5px 30px;
     font-size: 18px;
     margin-left: 15px;
@@ -177,7 +181,11 @@ nav ul li:hover{
 	font-size: 34px;
 	margin: 10px 0;
 }
+<<<<<<< HEAD
 .trip-content p,.choose-trip-content p,.adven-content p,.service-content p,.exp-content p,.travel-content p,.discover-content p,.blog-content p,.vacation-content p{
+=======
+.trip-content p,.choose-trip-content p,.adven-content p,.service-content p,.exp-content p,.travel-content p,.discover-content p,.blog-content p{
+>>>>>>> aa99ecb6588b2319e6b1d3f8f8d8e8a13d621b76
 	font-size: 11px;
 	line-height: 1.8;
 	margin-bottom: 10px;
@@ -386,6 +394,175 @@ nav ul li:hover{
 }
 /*end of service section*/
 /*Travel Itineraries section*/
+<<<<<<< HEAD
+=======
+
+.Itineraries-title h2{
+	font-size: 65px;
+    font-weight: 700;
+    margin: 10% 0 2% 0;
+}
+.Itineraries-video iframe{
+	width: 100%;
+	aspect-ratio: 6/3;
+}
+.Itineraries-logo{
+	margin-bottom: 5%;
+}
+/*end Travel Itineraries section*/
+/*experience section*/
+.experience{
+	padding-bottom: 7%;
+}
+.exp-section{
+	background: linear-gradient(to right,#0000009e, rgba(67, 74, 84, 0));
+}
+.exp-content{
+	padding: 15% 0 5% 0;
+}
+.exp-content h2{
+	color: var(--white);
+}
+.exp-content p{
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 300;
+}
+.exp-card{
+	padding: 0 3% 0 0;
+}
+
+.card-content{
+	padding: 35px 25px 35px 25px;
+	background-color: var(--primary-color);
+	border-radius: 10px;
+}
+.card-content p{
+	color: var(--white);
+	font-size: 17px;
+	font-weight: 200;
+}
+.profile{
+	margin: 20px 0 0 0;
+}
+
+.exp-profile img{
+	border-radius: 100%;
+}
+.profile-content p:first-child{
+	font-size: 14px;
+	font-weight: 500;
+}
+.profile-content p:last-child{
+	font-size: 12px;
+	font-weight: 300;
+}
+/*end of experience section*/
+/*travel packages section*/
+
+.travel-packages{
+	margin: 7% 0;
+}
+.packages{
+	margin-top: 3% ;
+}
+.package-1,.package-2,.package-3{
+	background-color: #F2F2F2;
+	padding: 20% 0;
+	border-radius: 10px;
+}
+.package-title h2{
+	font-size: 50px;
+}
+.package-title span{
+	font-size: 14px;
+}
+.package-content{
+	margin: 10px 0;
+	color: var(--desc-color);
+	font-size: 14px;
+	line-height: 2;
+	word-spacing: 2px;
+}
+.package-btn button{
+	padding: 5px 15px;
+	margin-left: 0;
+	font-size: 14px;
+}
+.package-2{
+	background-color: var(--primary-color);
+	padding: 27% 0;
+}
+.package-2 .package-title,.package-3 .package-title{
+	color: var(--white);
+}
+.package-2 .package-content,.package-3 .package-content{
+	color: var(--white);
+}
+.package-2 .package-btn button{
+	background-color: #434A54;
+}
+.package-3{
+	background-color: #434A54;
+	position: relative;
+}
+.popular-btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.popular-btn button{
+	font-size: 14px;
+	margin: 10px;
+	padding: 5px 15px;
+}
+.note{
+	color: var(--desc-color);
+	font-size: 14px;
+	margin-top: 10px;
+}
+/*end of travel packages section*/
+/*discover section*/
+.discover{
+	margin: 7% 0;
+}
+.discover-bar p{
+	font-size: 13px;
+	color: var(--desc-color);
+	border-bottom: 4px solid #6e6e6e24;
+	padding: 15px 0;
+	font-weight: 400;
+}
+.discover-bar{
+	margin-bottom: 8%;
+	position: relative;
+}
+
+.discover-bar::after{
+	content: "";
+	width: 70%;
+	height: 4px;
+	background-color: var(--desc-color);
+	position: absolute;
+	bottom: 0;
+}
+.discover-bar::before{
+	content: "";
+	width: 85%;
+	height: 4px;
+	background-color: var(--desc-color);
+	position: absolute;
+	bottom: 54px;
+}
+.discover-btn button{
+	font-size: 14px;
+	margin-left: 0 ;
+	padding: 6px 17px;
+}
+
+/*end of discover section*/
+
+>>>>>>> aa99ecb6588b2319e6b1d3f8f8d8e8a13d621b76
 
 .Itineraries-title h2{
 	font-size: 65px;

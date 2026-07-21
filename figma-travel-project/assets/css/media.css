@@ -277,6 +277,7 @@
     .Itineraries-title-s h2 {
         font-size: 45px;
     }
+<<<<<<< HEAD
     /*  */
     .blog-point-s{
         margin-top: 10%;
@@ -284,6 +285,8 @@
     .points-s{
         margin-bottom: 5%;
     }
+=======
+>>>>>>> aa99ecb6588b2319e6b1d3f8f8d8e8a13d621b76
 }
 
 @media(max-width:575.99px){
