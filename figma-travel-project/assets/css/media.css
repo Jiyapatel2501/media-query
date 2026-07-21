@@ -9,7 +9,7 @@
     .col-xxl-5{width:41.67%;}
     .col-xxl-6{width:50%;}
     .col-xxl-7{width:58.33%;}
-    .col-xxl-8{width:66.67;}
+    .col-xxl-8{width:66.67%;}
     .col-xxl-9{width:75%;}
     .col-xxl-10{width:83.33%;}
     .col-xxl-11{width:91.67%;}
@@ -30,7 +30,7 @@
     .col-xl-5{width:41.67%;}
     .col-xl-6{width:50%;}
     .col-xl-7{width:58.33%;}
-    .col-xl-8{width:66.67;}
+    .col-xl-8{width:66.67%;}
     .col-xl-9{width:75%;}
     .col-xl-10{width:83.33%;}
     .col-xl-11{width:91.67%;}
@@ -66,6 +66,11 @@
     .adven-desc-xl{
         padding: 0 6px;
     }
+    /*Travel Packages*/
+
+    .package-3-xl{
+        padding: 27% 0;
+    }
 }
 
 @media(max-width:1199.99px){
@@ -79,7 +84,7 @@
     .col-l-5{width:41.67%;}
     .col-l-6{width:50%;}
     .col-l-7{width:58.33%;}
-    .col-l-8{width:66.67;}
+    .col-l-8{width:66.67%;}
     .col-l-9{width:75%;}
     .col-l-10{width:83.33%;}
     .col-l-11{width:91.67%;}
@@ -121,7 +126,10 @@
     .start-price-l p s{
         font-size: 13px;
     }
-    /**/
+    /*travel blog section*/
+    .points-l{
+        font-size: 14px;
+    }
 
 }
 
@@ -136,7 +144,7 @@
     .col-m-5{width:41.67%;}
     .col-m-6{width:50%;}
     .col-m-7{width:58.33%;}
-    .col-m-8{width:66.67;}
+    .col-m-8{width:66.67%;}
     .col-m-9{width:75%;}
     .col-m-10{width:83.33%;}
     .col-m-11{width:91.67%;}
@@ -146,6 +154,9 @@
     }
     .d-m-inline{
         display: inline;
+    }
+    .justify-m-between{
+        justify-content: space-between;
     }
     /*hero-section*/
     .hero-m-content{
@@ -200,6 +211,12 @@
         margin: 0;
     }
 
+    /*Travel Itineraries*/
+
+    .Itineraries-title-m h2{
+        font-size: 50px;
+    }
+
 }
 
 @media(max-width:767.99px){
@@ -213,7 +230,7 @@
     .col-s-5{width:41.67%;}
     .col-s-6{width:50%;}
     .col-s-7{width:58.33%;}
-    .col-s-8{width:66.67;}
+    .col-s-8{width:66.67%;}
     .col-s-9{width:75%;}
     .col-s-10{width:83.33%;}
     .col-s-11{width:91.67%;}
@@ -226,6 +243,9 @@
     }
     .d-s-inline{
         display: inline;
+    }
+    .d-s-block{
+        display: block;
     }
     .justify-s-between{
         justify-content: space-between;
@@ -250,6 +270,19 @@
     /*choose-trip-section*/
     .choose-trip-content-s p {
         font-size: 12px;
+    }
+
+    /*Travel Itineraries*/
+
+    .Itineraries-title-s h2 {
+        font-size: 45px;
+    }
+    /*  */
+    .blog-point-s{
+        margin-top: 10%;
+    }
+    .points-s{
+        margin-bottom: 5%;
     }
 }
 
