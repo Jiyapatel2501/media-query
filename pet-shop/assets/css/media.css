@@ -1,0 +1,43 @@
+@media(max-width:575px){
+
+
+}
+
+@media(min-width:576px){
+
+
+}
+
+@media(min-width:768px){
+
+
+}
+
+@media(min-width:992px){
+
+	.nav-bar-lg ul li{
+		font-size: 14px;
+	}
+
+	.logo-img-lg{
+		width: 25%;
+	}
+
+}
+
+@media(min-width:1200px){
+
+	.nav-bar-xl ul li{
+		font-size: 16px;
+	}
+
+	.logo-img-xl{
+		width: 100%;
+	}
+
+}
+
+@media(min-width:1400px){
+
+
+}
