@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    font-family: "Fredoka", sans-serif;
+}
+
 :root, [data-bs-theme=light]{
     --bs-primary: #FF642E;
 	--bs-primary-rgb: 255, 100, 46;
@@ -5,4 +11,36 @@
 
 .link-primary:focus, .link-primary:hover {
     color: RGBA(255,100,46, var(--bs-link-opacity, 1)) !important;
+}
+.hero-banner{
+    background-color:#ff805461 ;
+}
+.hero-sec{
+    background-color:#ff4909ba;
+}
+.hero-content{
+    padding: 129px 0 50px 42px;
+}
+.hero-content h1{
+    font-size: 81px;
+    letter-spacing: 3px;
+}
+.cat-img .girl-2{
+    bottom: -87px;
+    width: 25%;
+    right: 180px;
+}
+.cat-img .cat {
+    bottom: -37px;
+    width: 40%;
+    right: 300px;
+}
+/* .bg-oval{
+    height: 80px;
+} */
+.slide-2-cat{
+    width: 80%;
+}
+.hero-sec-2{
+    background-color: #F4EDE6;
 }
