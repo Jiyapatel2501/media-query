@@ -15,6 +15,9 @@
 .hero-banner{
     background-color:#ff805461 ;
 }
+.hero-sec,.hero-sec-2,.hero-sec-3{
+    height: 90vh;
+}
 .hero-sec{
     background-color:#ff4909ba;
     padding: 60px 0;
