@@ -7,6 +7,7 @@
 :root, [data-bs-theme=light]{
     --bs-primary: #FF642E;
 	--bs-primary-rgb: 255, 100, 46;
+    --bg-desc:#f3f1f1a8;
 }
 
 .link-primary:focus, .link-primary:hover {
@@ -16,7 +17,7 @@
     background-color:#ff805461 ;
 }
 .hero-sec,.hero-sec-2,.hero-sec-3{
-    height: 90vh;
+    height: 65vh;
 }
 .hero-sec{
     background-color:#ff4909ba;
@@ -99,10 +100,7 @@
     right: -38px;
     bottom: 0px;
 }
-/* .btn-outline-primary{
-    --bs-btn-border-color: #FF642E;
-} */
- 
+
 .day-care{
     padding: 25px;
     border-radius: 25px;
@@ -118,3 +116,21 @@
   background-color: #fed000ab;
 }
 
+.btn-outline-primary {
+    --bs-btn-active-bg: #fed000ab;
+}
+.day-care-form{
+    background-color: var(--bg-desc);
+    padding: 20px;
+}
+.day-care-option p,.date-picker label{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.form-control{
+    padding: .75rem;
+}
+.add-to-cart button{
+    padding: 10px 70px;
+    margin: 25px 108px;
+}
