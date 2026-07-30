@@ -27,6 +27,11 @@
 		padding: 10px 45px;
 		margin: 25px 108px;
 	}
+	.card-1-xs,.card-2-xs,.card-3-xs{
+		margin-bottom: 5px;
+		padding: 50px 0;
+	}
+	
 }
 
 @media(min-width:576px){
@@ -58,6 +63,10 @@
 	.add-to-cart-s button {
 		padding: 10px 45px;
 		margin: 25px 108px;
+	}
+	.card-1-s,.card-2-s,.card-3-s{
+		margin-bottom: 5px;
+		padding: 50px 0;
 	}
 	
 
@@ -161,6 +170,9 @@
 	.promise-content-lg p{
 		font-size: 15px;
 	}
+	.best-in-title-lg h2 {
+        font-size: 40px;
+    }
 	.best-in-service-time-lg{
 		margin-top: 0;
 	}
@@ -178,6 +190,10 @@
 	.add-to-cart-lg button{
 		font-size: 15px;
 		margin: 6px 122px;
+	}
+	.card-1-lg,.card-2-lg,.card-3-lg{
+		margin-bottom: 100px;
+		
 	}
 
 }
@@ -210,7 +226,10 @@
 	.promise-content-xl p{
 		font-size: 17px;
 	}
-	.best-in-title-xl h2{
+	.best-in-title-xl h2 {
+        font-size: 48px;
+    }
+	.best-in-service-time-xl h2{
 		font-size: 40px;
 	}
 	.best-in-service-form-xl h4{
@@ -223,6 +242,19 @@
 }
 
 @media(min-width:1400px){
-
+	.best-in-service-form-xxl{
+		padding: 20px;
+	}
+	.add-to-cart-xxl button{
+		margin: 25px 115px;
+		padding: 10px 70px;
+		font-size: 19px;
+	}
+	.best-in-service-time-xxl p{
+		line-height: normal;
+	}
+	.best-in-title-xxl h2{
+		font-size: 56px;
+	}
 
 }

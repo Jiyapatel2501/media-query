@@ -134,3 +134,15 @@
     padding: 10px 70px;
     margin: 25px 108px;
 }
+.card-1,.card-2,.card-3{
+    background-color: #FFE1CF;
+    padding: 45px 0;
+    margin-bottom: 100px;
+}
+.card-2{
+    background-color: #E9F6FB;
+}
+.card-3{
+    background-color: #CFEDCF;
+    padding: 40px 0;
+}
