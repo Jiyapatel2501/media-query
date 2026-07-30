@@ -16,6 +16,17 @@
 		font-size: 35px;
         margin: 10px 0 18px 0;
 	}
+	.best-in-title-xs h2{
+		font-size: 24px;
+	}
+	.best-in-service-time-xs{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.add-to-cart-xs button {
+		padding: 10px 45px;
+		margin: 25px 108px;
+	}
 }
 
 @media(min-width:576px){
@@ -36,6 +47,17 @@
 	.promise-content-s h2{
 		font-size: 35px;
 		margin: 10px 0 18px 0;
+	}
+	.best-in-title-s h2{
+		font-size: 24px;
+	}
+	.best-in-service-time-s{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.add-to-cart-s button {
+		padding: 10px 45px;
+		margin: 25px 108px;
 	}
 	
 
@@ -62,6 +84,16 @@
 	}
 	.promise-content-m p{
 		font-size: 13px;
+	}
+	.best-in-title-m h2{
+		font-size: 32px;
+	}
+	.best-in-service-form-m{
+		padding: 50px;
+    	margin: 22px;
+	}
+	.add-to-cart-m button{
+		margin: 25px 150px;
 	}
 }
 
@@ -129,6 +161,24 @@
 	.promise-content-lg p{
 		font-size: 15px;
 	}
+	.best-in-service-time-lg{
+		margin-top: 0;
+	}
+	.best-in-service-time-lg h2,.best-in-service-form-lg h4{
+		font-size: 20px;
+	}
+	.best-in-service-time-lg p{
+		font-size: 13px;
+		line-height: 0.3;
+	}
+	.best-in-service-form-lg{
+		margin: 0;
+		padding: 0 5px;
+	}
+	.add-to-cart-lg button{
+		font-size: 15px;
+		margin: 6px 122px;
+	}
 
 }
 
@@ -160,6 +210,16 @@
 	.promise-content-xl p{
 		font-size: 17px;
 	}
+	.best-in-title-xl h2{
+		font-size: 40px;
+	}
+	.best-in-service-form-xl h4{
+		font-size: 24px;
+	}
+	.add-to-cart-xl button{
+		margin: 25px 135px;
+	}
+
 }
 
 @media(min-width:1400px){
