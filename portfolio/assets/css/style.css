@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root{
+    --bs-primary: #0d172a;
+    --bs-primary-rgb: 13, 23, 42;
+    --bs-info-rgb:59, 135, 212;
+    --bs-primary-border-subtle: #215e9e;
+}
+/* body{
+    background-color: #0d172a;
+} */
+.portfolio{
+  /* Background Gradient */
+  background: linear-gradient(90deg, #000B18 0%, #002B5C 50%, #004C91 100%);
+  
+  /* Border */
+  border: 1px solid #1A64B4;
+  
+  /* Optional subtle glow matching the image */
+  box-shadow: inset 0 0 10px rgba(0, 114, 206, 0.2);
+   font-family: "Orbitron", sans-serif;
+}
+.about-content h2,.skills-sec h2,.project h2,.what-i-do-title{
+    font-family: "Orbitron", sans-serif;
+}
+.my-img{
+  border: 2px solid #00F6FF;
+  box-shadow: 
+    0 0 5px #00F6FF,
+    0 0 15px #00F6FF,
+    0 0 30px #00A8E8,
+    inset 0 0 10px #00F6FF;
+}
+.read-more-btn{
+    background: linear-gradient(180deg, #215caf 0%, #13263f 100%);
+    border: 1px solid #266fa1;
+}
+.card-body{
+    background: linear-gradient(180deg, #215caf6b 0%, #13263f5e 100%);
+}
+.project{
+    background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
+    height: 55vh;
+}
+.carousel{
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.35),
+              0 0 30px rgba(0, 210, 255, 0.15);
+}
+.what-i-do{
+    background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
+}
+.accordion {
+    /* --bs-accordion-color: var(--bs-body-color); */
+    --bs-accordion-bg:#111d355c;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.35),
+              0 0 30px rgba(0, 210, 255, 0.15);
+    border-radius: 20px;
+    border-color: rgba(0, 210, 255, 0.25);
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+}

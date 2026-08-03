@@ -10,6 +10,18 @@
     --bg-desc:#f3f1f1a8;
 }
 
+/* .burger-menu {
+    border-color: transparent;
+    background-color: transparent;
+} */
+.burger-menu:hover{
+    background-color: white;
+    border: transparent;
+}
+
+.offcanvas.offcanvas-start{
+    width: 45%;
+}
 .link-primary:focus, .link-primary:hover {
     color: RGBA(255,100,46, var(--bs-link-opacity, 1)) !important;
 }
@@ -17,7 +29,7 @@
     background-color:#ff805461 ;
 }
 .hero-sec,.hero-sec-2,.hero-sec-3{
-    height: 65vh;
+    height: 80vh;
 }
 .hero-sec{
     background-color:#ff4909ba;
@@ -26,10 +38,10 @@
 .hero-content{
     padding: 53px 0 50px 42px;
 }
-.hero-content h1,.hero-content-2 h1{
+/* .hero-content h1,.hero-content-2 h1{
     font-size: 81px;
     letter-spacing: 3px;
-}
+} */
 .hero-content p{
     top: 23px;
     left: 63px;
@@ -145,4 +157,22 @@
 .card-3{
     background-color: #CFEDCF;
     padding: 40px 0;
+}
+.accordion-button:focus {
+    
+    box-shadow: 0 0 0 0.25rem transparent;
+}
+.accordion-button:not(.collapsed) {
+    /* color: var(--bs-accordion-active-color); */
+    background-color:transparent;
+    /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
+}
+.coach-3{
+    border: 2px solid #C3C3E9;
+}
+.card{
+    height: 60vh;
+}
+.offer-card .card{
+    height: 55vh;
 }

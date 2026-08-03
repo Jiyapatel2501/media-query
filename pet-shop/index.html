@@ -6,13 +6,52 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pets Land </title>
 	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css"
-		href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/media.css">
 </head>
 
 <body>
+
+	<!-- header offcanvas -->
+	<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="burger-menu" aria-labelledby="offcanvasExampleLabel">
+		<div class="offcanvas-header">
+
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<div class="offcanvas-body">
+			<div>
+				<ul
+					class=" d-flex flex-column align-items-center fs-5 py-5 fw-semibold list-unstyled row-gap-5 ">
+					<li class="">
+						<a href="./index.html"
+							class="nav-link active text-dark link-primary text-decoration-none fw-medium">Home</a>
+					</li>
+					<li class="">
+						<a href="./shop.html"
+							class="nav-link active text-dark link-primary text-decoration-none fw-medium">Shop</a>
+					</li>
+					<li class="">
+						<a href="./service.html"
+							class="nav-link active text-dark link-primary text-decoration-none fw-medium">Services</a>
+					</li>
+					<li class="">
+						<a href="./contact.html"
+							class="nav-link active text-dark link-primary text-decoration-none fw-medium">Contacts</a>
+					</li>
+					<li class="">
+						<a href="#"
+							class="nav-link active text-dark link-primary text-decoration-none fw-medium">Features</a>
+					</li>
+					<li class="">
+						<a href="./about.html"
+							class="nav-link active text-dark link-primary text-decoration-none fw-medium">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 	<header>
 		<div class="container">
 			<div class="row">
@@ -23,23 +62,44 @@
 							<p class="fw-semibold"> 800 123 4567</p>
 						</div>
 
-						<div class="nav-bar  nav-bar-lg nav-bar-xl d-none d-md-block">
+						<div class="nav-bar list-unstyled nav-bar-lg nav-bar-xl d-none d-md-block">
 							<ul
 								class=" d-flex px-1 fw-semibold list-unstyled column-gap-5 align-items-md-center column-gap-md-4 align-items-lg-between">
-								<li class="text-dark text-decoration-none link-primary" role="button">Home</li>
-								<li class="text-dark text-decoration-none link-primary" role="button">Shop</li>
-								<li class="text-dark text-decoration-none link-primary" role="button">Services</li>
+								<li class="">
+									<a href="#"
+										class="nav-link active text-dark link-primary text-decoration-none fw-medium">Home</a>
+								</li>
+								<li class="">
+									<a href="./shop.html"
+										class="nav-link active text-dark link-primary text-decoration-none fw-medium">Shop</a>
+								</li>
+								<li class="">
+									<a href="./service.html"
+										class="nav-link active text-dark link-primary text-decoration-none fw-medium">Services</a>
+								</li>
 								<img src="./assets/images/logo.webp" class="logo-img-lg logo-img-xl">
 								<!-- <li class="bg-repeat-0 d-flex align-items-center"><img src="./assets/images/logo.webp" class="logo-img-lg"></li> -->
-								<li class="text-dark text-decoration-none link-primary" role="button">Contacts</li>
-								<li class="text-dark text-decoration-none link-primary" role="button">Features</li>
-								<li class="text-dark text-decoration-none link-primary" role="button">About</li>
+								<li class="">
+									<a href="./contact.html"
+										class="nav-link active text-dark link-primary text-decoration-none fw-medium">Contacts</a>
+								</li>
+								<li class="">
+									<a href="#"
+										class="nav-link active text-dark link-primary text-decoration-none fw-medium">Features</a>
+								</li>
+								<li class="">
+									<a href="./about.html"
+										class="nav-link active text-dark link-primary text-decoration-none fw-medium">About</a>
+								</li>
 							</ul>
 						</div>
 
-						<div class="d-md-none mx-auto">
+						<div class="d-md-none mx-auto d-flex flex-column">
 							<img src="./assets/images/logo.webp">
-							<p class="text-primary text-center my-3 fs-3"><i class="ri-menu-line"></i></p>
+							<a class="burger-menubtn  text-primary text-center my-3 fs-3 text-decoration-none" data-bs-toggle="offcanvas"
+								href="#burger-menu" role="button" aria-controls="offcanvasExample">
+								<i class="ri-menu-line"></i>
+							</a>
 						</div>
 
 						<div class="cart d-lg-flex d-none column-gap-3 align-items-center">
@@ -99,13 +159,13 @@
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="col-xxl-5 col-12 col-lg-5">
 											<div
-												class="hero-content text-center hero-content-xs p-0 hero-content-m hero-content-xl">
+												class="mx-3 mt-5 hero-content text-center hero-content-xs p-0 hero-content-m hero-content-xl">
 												<div class="position-relative d-flex justify-content-center">
 													<img src="./assets/images/slide-1.png" alt="">
 													<p class="position-absolute text-dark fs-4 fs-xs-5 fs-xl-6">Your Pet
 														Our Family</p>
 												</div>
-												<h1 class="fw-bold">
+												<h1 class="fw-bold display-2">
 													Your pet, <br> our priority
 												</h1>
 												<button type="button"
@@ -162,10 +222,11 @@
 								</div>
 							</div>
 							<div class="carousel-item">
-								<div class="hero-sec-3 hero-sec-3-xs hero-sec-3-s hero-sec-3-m">
+								<div class="hero-sec-3 hero-sec-3-xs hero-sec-3-s hero-sec-3-m hero-sec-3-lg">
 									<div class="col-12 d-flex justify-content-between align-items-center">
 										<div class="col-lg-5 col-12">
-											<div class="hero-content-3 text-center p-0 hero-content-3-lg">
+											<div
+												class="hero-content-3 hero-content-3-xs hero-content-3-s text-center p-0 hero-content-3-lg">
 												<div
 													class="position-relative offer d-flex justify-content-center offer-xs offer-s offer-lg">
 													<img src="./assets/images/limited-offer.png" alt="">
@@ -946,7 +1007,7 @@
 		</section>
 
 		<!-- steps to enjoy -->
-		<section>
+		<section class="bg-body-tertiary">
 			<div class="container">
 				<div class="row">
 					<div class="steps-title my-5 py-3-5">
@@ -1006,14 +1067,83 @@
 			</div>
 		</section>
 
-		<!-- faq section -->
+		<!-- pet coaches -->
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="faq">
-						<div class="col-6">
-							<div class="contact">
-								
+					<div class="my-5">
+						<h2 class="display-4 fw-bold text-center">
+							Our Best Pet Coaches :
+						</h2>
+					</div>
+					<div
+						class="pet-coaches d-flex align-items-center row-gap-5 flex-md-row flex-wrap justify-content-md-center">
+						<div class="col-8 col-md-5 col-xl-4 col-xxl-3">
+							<div class="coach-1 border border-2 border-danger-subtle px-3 rounded-4 py-4">
+								<div class="">
+									<img src="./assets/images/coach-1.jpg" alt="" class="w-100 rounded-circle">
+								</div>
+								<div class="text-center mt-4">
+									<h3>Elizabeth Stephens</h3>
+									<p>Pet Nutritionist</p>
+								</div>
+								<div class="mt-4 d-flex column-gap-3 justify-content-center fs-5">
+									<span><i class="ri-facebook-fill"></i></span>
+									<span><i class="ri-twitter-x-line"></i></span>
+									<span><i class="ri-youtube-fill"></i></span>
+									<span><i class="ri-linkedin-fill"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-8 col-md-5 col-xl-4 col-xxl-3">
+							<div class="coach-2 border border-2 border-info-subtle px-3 rounded-4 py-4">
+								<div class="">
+									<img src="./assets/images/coach-2.jpg" alt="" class="w-100 rounded-circle">
+								</div>
+								<div class="text-center mt-4">
+									<h3>Jami Guillen</h3>
+									<p>Pets Care Trainer</p>
+								</div>
+								<div class="mt-4 d-flex column-gap-3 justify-content-center fs-5">
+									<span><i class="ri-facebook-fill"></i></span>
+									<span><i class="ri-twitter-x-line"></i></span>
+									<span><i class="ri-youtube-fill"></i></span>
+									<span><i class="ri-linkedin-fill"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-8 col-md-5 col-xl-4 col-xxl-3">
+							<div class="coach-3 px-3 rounded-4 py-4">
+								<div class="">
+									<img src="./assets/images/coach-3.jpg" alt="" class="w-100 rounded-circle">
+								</div>
+								<div class="text-center mt-4">
+									<h3>Eugene Washington</h3>
+									<p>Animal Handler </p>
+								</div>
+								<div class="mt-4 d-flex column-gap-3 justify-content-center fs-5">
+									<span><i class="ri-facebook-fill"></i></span>
+									<span><i class="ri-twitter-x-line"></i></span>
+									<span><i class="ri-youtube-fill"></i></span>
+									<span><i class="ri-linkedin-fill"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-8 col-md-5 col-xl-4 col-xxl-3">
+							<div class="coach-1 border border-2 border-warning-subtle px-3 rounded-4 py-4">
+								<div class="">
+									<img src="./assets/images/coach-4.jpg" alt="" class="w-100 rounded-circle">
+								</div>
+								<div class="text-center mt-4">
+									<h3>Freddie Perry</h3>
+									<p>Pet Behaviorist</p>
+								</div>
+								<div class="mt-4 d-flex column-gap-3 justify-content-center fs-5">
+									<span><i class="ri-facebook-fill"></i></span>
+									<span><i class="ri-twitter-x-line"></i></span>
+									<span><i class="ri-youtube-fill"></i></span>
+									<span><i class="ri-linkedin-fill"></i></span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1021,7 +1151,209 @@
 			</div>
 		</section>
 
+		<!-- faq section -->
+		<section>
+			<div class="container">
+				<div class="row my-5 my-lg-3">
+					<div class="faq d-flex justify-content-around flex-column row-gap-5 flex-lg-row">
+						<div class="col-lg-5 col-11 mx-auto">
+							<div class="contact">
+								<div class="my-4 text-center">
+									<h2 class="display-6 fw-semibold">Contact</h2>
+									<!-- <img src="./assets/images/arrow.png" alt="" class="w-100"> -->
+								</div>
+								<form class="row g-3">
+									<div class="col-md-6">
+										<label for="inputName" class="form-label">Name</label>
+										<input type="text" class="form-control" id="inputName"
+											placeholder="Enter Your Name">
+									</div>
+									<div class="col-md-6">
+										<label for="inputEmail" class="form-label">Email</label>
+										<input type="email" class="form-control" id="inputEmail"
+											placeholder="Enter Your Email">
+									</div>
+									<div class="col-12">
+										<label for="inputSubject" class="form-label">Subject</label>
+										<input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+									</div>
+									<div class="mb-3">
+										<label for="exampleFormControlTextarea1" class="form-label">
+											Message
+										</label>
+										<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+											placeholder="Enter Your Message"></textarea>
+									</div>
+									<div class="text-center">
+										<button type="submit" class="btn btn-primary btn-dark px-5 py-2">Send
+											now</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-lg-6 col-11 mx-auto col-xxl-5">
+							<div class="question">
+								<div class="my-4 text-center">
+									<h2 class="display-6 fw-bold">FAQ</h2>
+								</div>
+								<div class="accordion accordion-flush" id="accordionFlushExample">
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed " type="button"
+												data-bs-toggle="collapse" data-bs-target="#question-1"
+												aria-expanded="false" aria-controls="flush-collapseOne">
+												What types of pets do you cater to?
+											</button>
+										</h2>
+										<div id="question-1" class="accordion-collapse collapse text-body-tertiary"
+											data-bs-parent="#accordionFlushExample">
+											<div class="accordion-body">We carry food, supplies, toys, and accessories
+												for dogs, cats, small animals (rabbits, guinea pigs, hamsters), birds,
+												and fish!</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed " type="button"
+												data-bs-toggle="collapse" data-bs-target="#question-2"
+												aria-expanded="false" aria-controls="flush-collapseTwo">
+												Are your food products safely sourced and high quality?
+											</button>
+										</h2>
+										<div id="question-2" class="accordion-collapse collapse text-body-tertiary"
+											data-bs-parent="#accordionFlushExample">
+											<div class="accordion-body">Absolutely. We carefully select reputable brands
+												that meet strict nutritional and safety standards. We offer options for
+												grain-free, organic, raw, and hypoallergenic diets.</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed " type="button"
+												data-bs-toggle="collapse" data-bs-target="#question-3"
+												aria-expanded="false" aria-controls="flush-collapseThree">
+												How do I know which food is right for my pet?
+											</button>
+										</h2>
+										<div id="question-3" class="accordion-collapse collapse text-body-tertiary"
+											data-bs-parent="#accordionFlushExample">
+											<div class="accordion-body">Every pet is unique! You can check the
+												nutritional details and age/size recommendations on each product page.
+												If you need personalized guidance, feel free to reach out to our
+												customer support team.</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed " type="button"
+												data-bs-toggle="collapse" data-bs-target="#question-4"
+												aria-expanded="false" aria-controls="flush-collapseThree">
+												Are your toys indestructible?
+											</button>
+										</h2>
+										<div id="question-4" class="accordion-collapse collapse text-body-tertiary"
+											data-bs-parent="#accordionFlushExample">
+											<div class="accordion-body">While we source the most durable natural rubber
+												and reinforced nylon toys available (look for our Chew Champion badge),
+												no toy is 100% indestructible. We always recommend supervising your pet
+												during play and replacing toys that show heavy wear or damage.</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed " type="button"
+												data-bs-toggle="collapse" data-bs-target="#question-5"
+												aria-expanded="false" aria-controls="flush-collapseThree">
+												What if I received a damaged or incorrect item?
+											</button>
+										</h2>
+										<div id="question-5" class="accordion-collapse collapse text-body-tertiary"
+											data-bs-parent="#accordionFlushExample">
+											<div class="accordion-body">We’re so sorry about that! Please contact us
+												within 48 hours of receiving your package with a photo of the item, and
+												we’ll immediately send a replacement or issue a full refund.</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed " type="button"
+												data-bs-toggle="collapse" data-bs-target="#question-6"
+												aria-expanded="false" aria-controls="flush-collapseThree">
+												What training methods do you use?
+											</button>
+										</h2>
+										<div id="question-6" class="accordion-collapse collapse text-body-tertiary"
+											data-bs-parent="#accordionFlushExample">
+											<div class="accordion-body">We use 100% positive reinforcement training.
+												This reward-based approach uses treats, praise, and play to encourage
+												good behavior, building confidence in your pet without fear or
+												punishment.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+
+
 	</main>
+
+	<footer class="bg-body-tertiary">
+		<div class="container">
+			<div class="row">
+				<div class="footer d-flex flex-column align-items-center row-gap-5">
+					<div>
+						<img src="./assets/images/logo.webp" alt="">
+					</div>
+					<div>
+						<ul class="list-unstyled d-flex column-gap-5">
+							<li class="">
+								<a href="" class="text-dark link-primary text-decoration-none fw-medium">Home</a>
+							</li>
+							<li class="">
+								<a href="" class="text-dark link-primary text-decoration-none fw-medium">Shop</a>
+							</li>
+							<li class="">
+								<a href="" class="text-dark link-primary text-decoration-none fw-medium">Services</a>
+							</li>
+							<li class="">
+								<a href="" class="text-dark link-primary text-decoration-none fw-medium">Contacts</a>
+							</li>
+							<li class="">
+								<a href="" class="text-dark link-primary text-decoration-none fw-medium">Features</a>
+							</li>
+							<li class="">
+								<a href="" class="text-dark link-primary text-decoration-none fw-medium">About</a>
+							</li>
+						</ul>
+					</div>
+					<div class="d-flex column-gap-4">
+						<div class="rounded-circle bg-primary px-3 py-2">
+							<span><i class="ri-instagram-line fs-3 text-light"></i></span>
+						</div>
+						<div class="rounded-circle bg-warning px-3 py-2">
+							<span><i class="ri-twitter-x-line fs-3 text-light"></i></span>
+						</div>
+						<div class="rounded-circle bg-info px-3 py-2">
+							<span><i class="ri-facebook-fill fs-3 text-light"></i></span>
+						</div>
+
+					</div>
+					<div>
+						<div>
+							<p class="text-body-secondary">AncoraThemes © 2026. Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>

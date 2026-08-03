@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets-Land Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+</head>
+
+<body>
+
+    <!-- header offcanvas -->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="burger-menu"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <ul class=" d-flex flex-column align-items-center fs-5 py-5 fw-semibold list-unstyled row-gap-5 ">
+                    <li>
+                        <a href="./index.html"
+                            class="nav-link active text-dark link-primary text-decoration-none fw-medium">Home</a>
+                    </li>
+                    <li>
+                        <a href="./shop.html"
+                            class="nav-link active text-dark link-primary text-decoration-none fw-medium">Shop</a>
+                    </li>
+                    <li>
+                        <a href="./service.html"
+                            class="nav-link active text-dark link-primary text-decoration-none fw-medium">Services</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html"
+                            class="nav-link active text-dark link-primary text-decoration-none fw-medium">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="nav-link active text-dark link-primary text-decoration-none fw-medium">Features</a>
+                    </li>
+                    <li>
+                        <a href="./about.html"
+                            class="nav-link active text-dark link-primary text-decoration-none fw-medium">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header  d-flex justify-content-between py-4 align-items-lg-center">
+                        <div class="contact d-lg-flex d-none column-gap-3 align-items-center">
+                            <span class="text-primary"><i class="ri-phone-line fs-3"></i></span>
+                            <p class="fw-semibold"> 800 123 4567</p>
+                        </div>
+
+                        <div class="nav-bar list-unstyled nav-bar-lg nav-bar-xl d-none d-md-block">
+                            <ul
+                                class=" d-flex px-1 fw-semibold list-unstyled column-gap-5 align-items-md-center column-gap-md-4 align-items-lg-between">
+                                <li>
+                                    <a href="./index.html"
+                                        class="nav-link active text-dark link-primary text-decoration-none fw-medium">Home</a>
+                                </li>
+                                <li class="">
+                                    <a href="./shop.html"
+                                        class="nav-link active text-dark link-primary text-decoration-none fw-medium">Shop</a>
+                                </li>
+                                <li class="">
+                                    <a href="./service.html"
+                                        class="nav-link active text-dark link-primary text-decoration-none fw-medium">Services</a>
+                                </li>
+                                <img src="./assets/images/logo.webp" class="logo-img-lg logo-img-xl">
+                                <!-- <li class="bg-repeat-0 d-flex align-items-center"><img src="./assets/images/logo.webp" class="logo-img-lg"></li> -->
+                                <li class="">
+                                    <a href="./contact.html"
+                                        class="nav-link active text-dark link-primary text-decoration-none fw-medium">Contacts</a>
+                                </li>
+                                <li class="">
+                                    <a href="#"
+                                        class="nav-link active text-dark link-primary text-decoration-none fw-medium">Features</a>
+                                </li>
+                                <li class="">
+                                    <a href="./about.html"
+                                        class="nav-link active text-dark link-primary text-decoration-none fw-medium">About</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="d-md-none mx-auto d-flex flex-column">
+                            <img src="./assets/images/logo.webp">
+                            <a class="burger-menubtn  text-primary text-center my-3 fs-3 text-decoration-none"
+                                data-bs-toggle="offcanvas" href="#burger-menu" role="button"
+                                aria-controls="offcanvasExample">
+                                <i class="ri-menu-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="cart d-lg-flex d-none column-gap-3 align-items-center">
+                            <span class="text-primary"><i class="ri-shopping-cart-2-line fs-3"></i></span>
+                            <p class="fw-semibold"> Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container-fluid pb-5 mb-5">
+                <div class="row">
+                    <div class="hero-img ">
+                        <img src="./assets/images/shop-banner.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container my-5 py-5">
+                <div class="row">
+                    <div class="pet-product-sec d-flex flex-lg-row flex-column align-items-center justify-content-around">
+                        <div class="col-3 d-none d-lg-block">
+                            <div class="product-filter rounded-3 bg-secondary-subtle px-5 py-3">
+                                <div class="cart border-bottom py-2 my-3 border-dark-subtle">
+                                    <h3>Cart</h3>
+                                    <p>No Product in the Cart</p>
+                                </div>
+                                <div class="pet border-bottom py-2 my-3 border-dark-subtle">
+                                    <h3>Pet</h3>
+                                    <div class="pet-category text-body-tertiary">
+                                        <p>Bird</p>
+                                        <p>Cat</p>
+                                        <p>Dog</p>
+                                        <p>Fish</p>
+                                        <p>Reptile</p>
+                                        <p>Rodents</p>
+                                    </div>
+                                </div>
+                                <div class="categories border-bottom py-2 my-3 border-dark-subtle">
+                                    <h3>Categories</h3>
+                                    <div class="category-list text-body-tertiary">
+                                        <p>Bowls & Feeding (5)</p>
+                                        <p>Canes & Pouches (3)</p>
+                                        <p>Collars & Leads (4)</p>
+                                        <p>Dry Food (3)</p>
+                                        <p>Grooming (3)</p>
+                                        <p>Toys (5)</p>
+                                    </div>
+                                </div>
+                                <div class="categories border-bottom py-2 my-3 border-dark-subtle">
+                                    <h3>Filtered By Price</h3>
+                                    <div class="range text-body-tertiary">
+
+                                        <input type="range" class="form-range" min="0" max="100" value="50" id="range4">
+                                        <output for="range4" id="rangeValue" aria-hidden="true"></output>
+
+                                        <script>
+                                            // This is an example script, please modify as needed
+                                            const rangeInput = document.getElementById('range4');
+                                            const rangeOutput = document.getElementById('rangeValue');
+
+                                            // Set initial value
+                                            rangeOutput.textContent = rangeInput.value;
+
+                                            rangeInput.addEventListener('input', function () {
+                                                rangeOutput.textContent = this.value;
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                                <div class="brand border-bottom py-2 my-3 border-dark-subtle">
+                                    <h3>Brands</h3>
+                                    <div class="brand-list text-body-tertiary">
+                                        <p>Another Brand</p>
+                                        <p>Happy Pets</p>
+                                        <p>Home Treats</p>
+                                        <p>Natural Food</p>
+                                        <p>Pet Toy</p>
+                                        <p>Sweet Dream</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary my-4 d-lg-none">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Cart
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">There is no Item in Cart</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pets
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Bird</a></li>
+                                                <li><a class="dropdown-item" href="#">Cat</a></li>
+                                                <li><a class="dropdown-item" href="#">Dog</a></li>
+                                                <li><a class="dropdown-item" href="#">Fish</a></li>
+                                                <li><a class="dropdown-item" href="#">Reptile</a></li>
+                                                <li><a class="dropdown-item" href="#">Rodents</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Category
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Bowls & Feeding (5)</a></li>
+                                                <li><a class="dropdown-item" href="#">Canes & Pouches (3)</a></li>
+                                                <li><a class="dropdown-item" href="#">Collars & Leads (4)</a></li>
+                                                <li><a class="dropdown-item" href="#">Dry Food (3)</a></li>
+                                                <li><a class="dropdown-item" href="#">Grooming (3)</a></li>
+                                                <li><a class="dropdown-item" href="#">Toys (5)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Brand
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Another Brand</a></li>
+                                                <li><a class="dropdown-item" href="#">Happy Pets</a></li>
+                                                <li><a class="dropdown-item" href="#">Home Treats</a></li>
+                                                <li><a class="dropdown-item" href="#">Natural Food</a></li>
+                                                <li><a class="dropdown-item" href="#">Pet Toy</a></li>
+                                                <li><a class="dropdown-item" href="#">Sweet Dream</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="col-8">
+                            <div class="products d-flex flex-wrap justify-content-around row-gap-3">
+                                <div class="col-lg-5 col-12">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./assets/images/product-1.jpg" class="card-img-top ratio ration-1x1"
+                                            alt="...">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title fw-medium">Tough Dog Bone Chew Toy</h4>
+                                            <p class="card-text text-primary my-4">$12.00 - $14.00</p>
+                                            <p class="text-warning fs-4"><i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./assets/images/product-2.jpg" class="card-img-top ratio ration-1x1"
+                                            alt="...">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title fw-medium">Tough Dog Bone Chew Toy</h4>
+                                            <p class="card-text text-primary my-4">$12.00 - $14.00</p>
+                                            <p class="text-warning fs-4"><i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./assets/images/product-3.jpg" class="card-img-top ratio ration-1x1"
+                                            alt="...">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title fw-medium">Tough Dog Bone Chew Toy</h4>
+                                            <p class="card-text text-primary my-4">$12.00 - $14.00</p>
+                                            <p class="text-warning fs-4"><i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./assets/images/product-4.jpg" class="card-img-top ratio ration-1x1"
+                                            alt="...">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title fw-medium">Tough Dog Bone Chew Toy</h4>
+                                            <p class="card-text text-primary my-4">$12.00 - $14.00</p>
+                                            <p class="text-warning fs-4"><i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./assets/images/product-5.jpg" class="card-img-top ratio ration-1x1"
+                                            alt="...">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title fw-medium">Tough Dog Bone Chew Toy</h4>
+                                            <p class="card-text text-primary my-4">$12.00 - $14.00</p>
+                                            <p class="text-warning fs-4"><i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-12">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="./assets/images/product-6.jpg" class="card-img-top ratio ration-1x1"
+                                            alt="...">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title fw-medium">Tough Dog Bone Chew Toy</h4>
+                                            <p class="card-text text-primary my-4">$12.00 - $14.00</p>
+                                            <p class="text-warning fs-4"><i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i> <i
+                                                    class="ri-star-s-fill"></i> <i class="ri-star-s-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="save py-5 d-flex flex-column flex-lg-row align-items-center">
+                        <div class="col-lg-7 col-12 my-4">
+                            <h2 class="display-5 fw-bold text-light text-center">Save $5 On Your Next Purchase</h2>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <form action="">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Your Email"
+                                        aria-label="Recipient’s username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text bg-warning px-5 fs-5 fw-medium text-light" id="basic-addon2">Go</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-body-tertiary my-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="footer d-flex flex-column align-items-center row-gap-5">
+                    <div>
+                        <img src="./assets/images/logo.webp" alt="">
+                    </div>
+                    <div>
+                        <ul class="list-unstyled d-flex column-gap-4 column-gap-sm-5">
+                            <li class="">
+                                <a href="" class="text-dark link-primary text-decoration-none fw-medium">Home</a>
+                            </li>
+                            <li class="">
+                                <a href="" class="text-dark link-primary text-decoration-none fw-medium">Shop</a>
+                            </li>
+                            <li class="">
+                                <a href="" class="text-dark link-primary text-decoration-none fw-medium">Services</a>
+                            </li>
+                            <li class="">
+                                <a href="" class="text-dark link-primary text-decoration-none fw-medium">Contacts</a>
+                            </li>
+                            <li class="">
+                                <a href="" class="text-dark link-primary text-decoration-none fw-medium">Features</a>
+                            </li>
+                            <li class="">
+                                <a href="" class="text-dark link-primary text-decoration-none fw-medium">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex column-gap-4">
+                        <div class="rounded-circle bg-primary px-3 py-2">
+                            <span><i class="ri-instagram-line fs-3 text-light"></i></span>
+                        </div>
+                        <div class="rounded-circle bg-warning px-3 py-2">
+                            <span><i class="ri-twitter-x-line fs-3 text-light"></i></span>
+                        </div>
+                        <div class="rounded-circle bg-info px-3 py-2">
+                            <span><i class="ri-facebook-fill fs-3 text-light"></i></span>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div>
+                            <p class="text-body-secondary">AncoraThemes © 2026. Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

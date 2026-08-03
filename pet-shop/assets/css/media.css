@@ -6,11 +6,15 @@
 	.hero-content-2-xs{
 		padding: 38px 0;
 	}
+
 	.offer-xs p{
 		left: 184px;
 	}
 	.hero-sec-3-xs{
 		padding: 22px 0;
+	}
+	.hero-content-3-xs h1 {
+		font-size: 66px;
 	}
 	.promise-content-xs h2{
 		font-size: 35px;
@@ -31,6 +35,9 @@
 		margin-bottom: 5px;
 		padding: 50px 0;
 	}
+	.offer-card-xs .card{
+    	height: 70vh;
+	}
 	
 }
 
@@ -43,10 +50,13 @@
 		left: 185px;
 	}
 	.hero-sec-3-s{
-		padding: 22px 0;
+		padding: 22px 10px;
 	}
 	.hero-content-2-s {
    		padding: 40px 0;
+	}
+	.hero-content-3-s h1 {
+		font-size: 66px;
 	}
 
 	.promise-content-s h2{
@@ -67,6 +77,9 @@
 	.card-1-s,.card-2-s,.card-3-s{
 		margin-bottom: 5px;
 		padding: 50px 0;
+	}
+	.offer-card-s .card{
+		height: 70vh;
 	}
 	
 
@@ -116,29 +129,32 @@
 		width: 25%;
 	}
 	.dog-lg{
-		top: 12px;
+		top: -38px;
 	}
-	.girl-1-lg{
-		top: 163px;
-    	left: -32px;
+	.cat-img-lg .girl-1-lg{
+		top: 107px;
+    	left: -45px;
 	}
 	.cat-img-lg .cat-lg{
-		top: 184px;
+		top: 135px;
 		right: 263px;
 	}
-	.girl-2-lg{
-		top: 180px;
+	.cat-img-lg .girl-2-lg{
+		top: 135px;
 	}
 	.hero-content-2-lg h1{
 		font-size: 71px;
 	}
 	.slide-2-lg{
 		width: 87%;
-		margin: 80px 0;
+		margin: 45px 0;
 	}
 	.offer-lg p{
 		left: 84px;
 	}
+	.hero-sec-3-lg {
+        padding: 20px 92px;
+    }
 	.hero-content-3-lg h1{
 		font-size: 56px;
 	}
