@@ -21,8 +21,16 @@
   box-shadow: inset 0 0 10px rgba(0, 114, 206, 0.2);
    font-family: "Orbitron", sans-serif;
 }
-.about-content h2,.skills-sec h2,.project-sec h2,.what-i-do-title,.education h2,.exp-sec h2{
+.about-content h2,.skills-sec h2,.project-heading,.what-i-do-title,.education h2,.exp-sec h2{
     font-family: "Orbitron", sans-serif;
+    text-shadow: 
+    0 0 5px  rgba(0, 225, 255, 0.8),
+    0 0 12px rgba(0, 225, 255, 0.5),
+    0 0 25px rgba(0, 225, 255, 0.3),
+    0 0 45px rgba(0, 225, 255, 0.15);
+    color: #7dd3fc;
+    font-size: 45px;
+    font-weight: 800;
 }
 .my-img{
   border: 2px solid #00F6FF;
@@ -36,16 +44,72 @@
     background: linear-gradient(180deg, #215caf 0%, #13263f 100%);
     border: 1px solid #266fa1;
 }
+.btn:hover{
+    scale: 1.09;
+}
 .card-body{
     background: linear-gradient(180deg, #215caf6b 0%, #13263f5e 100%);
 }
 .project{
     background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
-    height: 70vh;
+    /* height: 80vh; */
+}
+.project-title,.project-purpose,.tech-stack{
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.35),
+              0 0 30px rgba(0, 210, 255, 0.15);
+    background-color: #0d265687;
+}
+.html{
+    color: #FF5722;
+    border-color: #FF5722;
+    background-color: rgba(255, 87, 34, 0.15);
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.4);
+}
+.css{
+    color: #0091FF;
+    border-color: #0091FF;
+    background-color: rgba(0, 145, 255, 0.15);
+    box-shadow: 0 0 10px rgba(0, 145, 255, 0.4);
+}
+
+.bootstrap{
+    color: #A855F7;
+    border-color: #A855F7;
+    background-color: rgba(168, 85, 247, 0.15);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.4);
 }
 .carousel{
     box-shadow: 0 0 15px rgba(0, 210, 255, 0.35),
               0 0 30px rgba(0, 210, 255, 0.15);
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+
+}
+.education-content{
+    background: linear-gradient(180deg, #215caf42 0%, #13263f63 100%);
+}
+.c{
+    color: #FF4D4D;
+    border: #FF4D4D;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.6);
+}
+.web{
+    color: #00FF88;
+    border-color: #00FF88;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
+}
+.cpp{
+    color: #00E5FF;
+    border-color: #00E5FF;
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+}
+.python{
+    color: #FF5722;
+    border-color: #FF5722;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.6);
 }
 .what-i-do{
     background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
