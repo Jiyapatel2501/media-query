@@ -21,7 +21,7 @@
   box-shadow: inset 0 0 10px rgba(0, 114, 206, 0.2);
    font-family: "Orbitron", sans-serif;
 }
-.about-content h2,.skills-sec h2,.project-heading,.what-i-do-title,.education h2,.exp-sec h2{
+.about-content h2,.skills-sec h2,.project-heading,.what-i-do-title,.education h2,.exp-sec h2,.contact-sec h2{
     font-family: "Orbitron", sans-serif;
     text-shadow: 
     0 0 5px  rgba(0, 225, 255, 0.8),
@@ -40,39 +40,36 @@
     0 0 30px #00A8E8,
     inset 0 0 10px #00F6FF;
 }
-.read-more-btn{
+.read-more-btn,.send-message-btn{
     background: linear-gradient(180deg, #215caf 0%, #13263f 100%);
     border: 1px solid #266fa1;
 }
 .btn:hover{
     scale: 1.09;
 }
-.card-body{
-    background: linear-gradient(180deg, #215caf6b 0%, #13263f5e 100%);
-}
-.project{
+.project,.contact-info{
     background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
     /* height: 80vh; */
 }
-.project-title,.project-purpose,.tech-stack{
+.project-title,.project-purpose,.tech-stack,.email,.location{
     box-shadow: 0 0 15px rgba(0, 210, 255, 0.35),
               0 0 30px rgba(0, 210, 255, 0.15);
     background-color: #0d265687;
 }
-.html{
+.html,.html:hover{
     color: #FF5722;
     border-color: #FF5722;
     background-color: rgba(255, 87, 34, 0.15);
     box-shadow: 0 0 10px rgba(255, 87, 34, 0.4);
 }
-.css{
+
+.css,.css:hover{
     color: #0091FF;
     border-color: #0091FF;
     background-color: rgba(0, 145, 255, 0.15);
     box-shadow: 0 0 10px rgba(0, 145, 255, 0.4);
 }
-
-.bootstrap{
+.bootstrap,.bootstrap:hover{
     color: #A855F7;
     border-color: #A855F7;
     background-color: rgba(168, 85, 247, 0.15);
@@ -91,25 +88,31 @@
 .education-content{
     background: linear-gradient(180deg, #215caf42 0%, #13263f63 100%);
 }
-.c{
+.c,.c:hover{
     color: #FF4D4D;
-    border: #FF4D4D;
+    border-color: #FF4D4D;
     box-shadow: 0 0 10px rgba(255, 77, 77, 0.6);
 }
-.web{
+.web,.web:hover{
     color: #00FF88;
     border-color: #00FF88;
     box-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
 }
-.cpp{
+.cpp,.cpp:hover{
     color: #00E5FF;
     border-color: #00E5FF;
     box-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
 }
-.python{
+.python,.python:hover{
     color: #FF5722;
     border-color: #FF5722;
     box-shadow: 0 0 10px rgba(255, 87, 34, 0.6);
+}
+.card{
+    --bs-card-bg:var(--bs-primary);
+}
+.icon{
+    font-size: 50px;
 }
 .what-i-do{
     background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
@@ -122,4 +125,12 @@
     border-radius: 20px;
     border-color: rgba(0, 210, 255, 0.25);
     --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+.form-control{
+    background-color: transparent;
+}
+.form-control:focus {
+    background-color:transparent;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.35),
+              0 0 30px rgba(0, 210, 255, 0.15);
 }
