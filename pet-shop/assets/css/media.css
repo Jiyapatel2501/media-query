@@ -1,5 +1,9 @@
 @media(max-width:575px) {
 
+	.hero-sec-xs, .hero-sec-2-xs, .hero-sec-3-xs {
+    	height: 48vh;
+	}
+
 	.hero-content-xs p {
 		left: 155px;
 	}
@@ -38,6 +42,9 @@
 		margin-top: 50px;
 		text-align: center;
 	}
+	.card-xs{
+		height: 110vh;
+	}
 
 	.add-to-cart-xs button {
 		padding: 10px 45px;
@@ -58,6 +65,10 @@
 }
 
 @media(min-width:576px) {
+
+	.hero-sec-s, .hero-sec-2-s, .hero-sec-3-s {
+    	height: 48vh;
+	}
 
 	.hero-content p {
 		left: 158px;
@@ -96,6 +107,9 @@
 	.best-in-service-time-s {
 		margin-top: 50px;
 		text-align: center;
+	}
+	.card-s{
+		height: 110vh;
 	}
 
 	.add-to-cart-s button {
@@ -152,6 +166,9 @@
 	.best-in-service-form-m {
 		padding: 50px;
 		margin: 22px;
+	}
+	.card-m {
+    	height: 130vh;
 	}
 
 	.add-to-cart-m button {
@@ -228,10 +245,10 @@
 		content: "";
 		/* border: 2px dashed #d3cfa7; */
 		/* position: absolute; */
-		left: -13px;
-		top: 25px;
-		height: 89%;
-		width: 107%;
+		left: -11px;
+        top: -10px;
+        height: 106%;
+        width: 107%;
 		/* border-radius: 50%; */
 		/* padding: 40px 0; */
 	}
@@ -263,9 +280,12 @@
 	}
 
 	.best-in-service-form-lg {
-		margin: 0;
-		padding: 0 5px;
+		margin: 0 0px 0 12px;
+        padding: 4px 5px;
 	}
+	.card-lg {
+        height: 45vh;
+    }
 
 	.add-to-cart-lg button {
 		font-size: 15px;
@@ -309,6 +329,9 @@
 	.cat-img-xl .cat-xl {
 		right: 332px;
 		bottom: -41px;
+	}
+	.hero-content-xl{
+		margin: 106px 0;
 	}
 
 	.hero-content-xl h1 {
@@ -381,13 +404,15 @@
         margin: 0 25px;
     }
 	.slide-2-xxl {
-        width: 70%;
+       width: 85%;
+        margin: 78px 0;
 	}
 	.hero-sec-3-xxl{
 		padding: 13px 0px 13px 100px;
 	}
 	.hero-img-3-xxl{
-		width: 65%;
+		width: 75%;
+        margin: 105px 0;
 	}
 	.offer-xxl p {
         left: 173px;

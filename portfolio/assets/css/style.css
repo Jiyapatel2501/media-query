@@ -59,7 +59,7 @@
 .project{
     height: 90vh;
 }
-.project,.contact-info{
+.project,.contact-info,footer{
     background: linear-gradient(180deg, #215caf78 0%, #13263f82 100%);
     /* height: 80vh; */
 }

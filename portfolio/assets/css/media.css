@@ -1,0 +1,21 @@
+@media(max-width:575px) {
+    .project-xs {
+        height: 45vh;
+    }
+}
+
+@media(min-width:576px){
+    .project-s {
+        height: 45vh;
+    }
+}
+@media(min-width:768px){
+        .project-m {
+            height: 65vh;
+        }
+}
+@media(min-width:992px){
+    .project-l {
+        height: 83vh;
+    }
+}
