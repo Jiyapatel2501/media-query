@@ -41,14 +41,14 @@
     font-size: 45px;
     font-weight: 800;
 }
-.my-img{
+/* .my-img{
   border: 2px solid #00F6FF;
   box-shadow: 
     0 0 5px #00F6FF,
     0 0 15px #00F6FF,
     0 0 30px #00A8E8,
     inset 0 0 10px #00F6FF;
-}
+} */
 .read-more-btn,.send-message-btn{
     background: linear-gradient(180deg, #215caf 0%, #13263f 100%);
     border: 1px solid #266fa1;
