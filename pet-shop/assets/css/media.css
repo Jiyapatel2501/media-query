@@ -311,6 +311,9 @@
 		width: 100%;
 	}
 
+	.hero-sec-xl, .hero-sec-2-xl, .hero-sec-3-xl {
+        height: 61vh;
+    }
 	.dog-xl {
 		right: -102px;
 	}
@@ -331,7 +334,7 @@
 		bottom: -41px;
 	}
 	.hero-content-xl{
-		margin: 106px 0;
+		margin: 45px 0;
 	}
 
 	.hero-content-xl h1 {
@@ -368,6 +371,9 @@
 	.best-in-title-xl h2 {
 		font-size: 48px;
 	}
+	.card-lg {
+        height: 55vh;
+    }
 
 	.best-in-service-time-xl h2 {
 		font-size: 40px;
@@ -404,15 +410,15 @@
         margin: 0 25px;
     }
 	.slide-2-xxl {
-       width: 85%;
-        margin: 78px 0;
+       width: 78%;
+        margin: 19px 0;
 	}
 	.hero-sec-3-xxl{
 		padding: 13px 0px 13px 100px;
 	}
 	.hero-img-3-xxl{
 		width: 75%;
-        margin: 105px 0;
+        margin: 28px 0;
 	}
 	.offer-xxl p {
         left: 173px;
