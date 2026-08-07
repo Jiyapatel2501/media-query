@@ -390,6 +390,9 @@
 }
 
 @media(min-width:1400px) {
+	.card-xxl {
+        height: 60vh;
+    }
 	.dog-xxl img {
 		width: 70%;
 	}
